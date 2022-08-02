@@ -1,0 +1,49 @@
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+public class Controler implements KeyListener{
+
+	RunGame car;
+	
+	public Controler (RunGame x)
+	{
+		this.car= x;
+	}
+
+	@Override
+	public void keyTyped(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void keyPressed(KeyEvent e) {
+		char ch=e.getKeyChar();
+		if(ch=='a'||ch=='A')
+		{
+			int x=car.panel.getX();
+			int y=car.panel.getY();
+			if(x-car.speed>=0) {
+			car.panel.setLocation(x-car.speed,y);
+			}
+			
+		}
+		if(ch=='d'||ch=='D')
+		{
+			int p=car.frame.getWidth();
+			int n=car.panel.getWidth();
+			int x=car.panel.getX();
+			int y=car.panel.getY();
+			if(x+car.speed<=p-n) {
+			car.panel.setLocation(x+car.speed,y);
+			}
+		}
+		
+	}
+
+	@Override
+	public void keyReleased(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+}
