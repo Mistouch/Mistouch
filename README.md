@@ -102,7 +102,7 @@ Kaggle
 <p align="left">
 <a href="https://www.linkedin.com/in/shahria-sarker-shuvo-087017181/">LinkedIn</a> •
 <a href="https://scholar.google.com/citations?user=2_JLlvIAAAAJ&hl=en">Google Scholar</a> •
-<a href="YOUR_CV">CV</a> •
+<a href="[YOUR_CV](https://github.com/Mistouch/CV)">CV</a> •
 <a href="mailto:shamimraja57@gmail.com">Email</a>
 </p>
 
